@@ -19,7 +19,7 @@ module "aws_sqs_with_dlq_and_cloudwatch_alarm" {
 ## Requirements
 | Name      | Version   |
 |-----------|-----------|
-| terraform | >= 0.12.7 | 
+| terraform | >= 1.0.0  | 
 | aws       | >= 2.30   | 
 
 
