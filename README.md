@@ -9,10 +9,10 @@ module "aws_sqs_with_dlq_and_cloudwatch_alarm" {
   source  = "endre-synnes/aws-sqs-with-dlq-and-cloudwatch-alarm"
   version = "~> 0.0.1"
   
-  queue_name                  = "my-queue"
-  dead_letter_queue_name      = "my-dead-letter-queue"
-  cloudwatch_alarm_name       = "my-cloudwatch-alarm"
-  cloudwatch_alarm_sns_topic  = "my-sns-topic"
+  queue_name                      = "my-queue"
+  dead_letter_queue_name          = "my-dead-letter-queue"
+  cloudwatch_alarm_name           = "my-cloudwatch-alarm"
+  cloudwatch_alarm_sns_topic_arn  = "my-sns-topic"
 }
 ```
 
