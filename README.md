@@ -7,7 +7,7 @@ This is a Terraform module for creating SQS queues with DLQs (dead letter queues
 ```terraform
 module "aws_sqs_with_dlq_and_cloudwatch_alarm" {
   source  = "endre-synnes/aws-sqs-with-dlq-and-cloudwatch-alarm"
-  version = "~> 0.1"
+  version = "~> 0.0.1"
   
   queue_name                  = "my-queue"
   dead_letter_queue_name      = "my-dead-letter-queue"
@@ -19,7 +19,7 @@ module "aws_sqs_with_dlq_and_cloudwatch_alarm" {
 ## Requirements
 | Name      | Version   |
 |-----------|-----------|
-| terraform | >= 0.12.7 | 
+| terraform | >= 1.0.0  | 
 | aws       | >= 2.30   | 
 
 
