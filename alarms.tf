@@ -19,5 +19,5 @@ module "dlq_alarm" {
     "QueueName": module.dead_letter_queue.sqs_queue_name
   }
 
-  alarm_actions = [var.cloudwatch_alarm_sns_topic]
+  alarm_actions = [var.cloudwatch_alarm_sns_topic_arn]
 }

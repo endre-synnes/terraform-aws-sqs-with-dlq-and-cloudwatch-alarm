@@ -25,7 +25,7 @@ variable "cloudwatch_alarm_name" {
   type = string
 }
 
-variable "cloudwatch_alarm_sns_topic" {
+variable "cloudwatch_alarm_sns_topic_arn" {
   description = "The ARN of an SNS topic CloudWatch should send messages to"
   type = string
 }
